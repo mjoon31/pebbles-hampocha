@@ -13,7 +13,7 @@ for (const button of document.querySelectorAll(".email-copy")) {
         selection.removeAllRanges();
         selection.addRange(range);
       }
-      status.textContent = "주소를 직접 복사해 주세요";
+      status.textContent = "주소를 직접 복사하시기 바랍니다";
     }
   });
 }
